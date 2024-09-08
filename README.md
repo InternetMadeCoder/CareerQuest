@@ -1,8 +1,24 @@
-# React + Vite
+# CareerQuest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerQuest is a dynamic job search platform built with React. It offers users an intuitive interface to search for jobs by title, company, and location, with filtering and sorting options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Job Search**: Search for job listings by job title, company, or location.
+- **Filter and Display**: Filters job listings based on user input and displays only the relevant jobs. If no jobs match the search criteria, a message indicating 'No relevant jobs found' is displayed.
+- **Sort Options**: Includes sorting options for job type and level.
+- **Responsive Design**: User-friendly and responsive UI.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14.x or higher)
+- npm (Node Package Manager)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/InternetMadeCoder/CareerQuest.git
