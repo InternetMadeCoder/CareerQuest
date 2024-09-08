@@ -12,9 +12,7 @@ const NavBar = () => {
         <div className="menu flex gap-8">
             <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Jobs</li>
             <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Companies</li>
-            <li className="menulist text-[#6f6f6f] hover:text-purpleColor">About</li>
-            <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Contact</li>
-            <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Blog</li>
+            <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Resume Builder</li>
             <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Login</li>
             <li className="menulist text-[#6f6f6f] hover:text-purpleColor">Register</li>
         </div>
