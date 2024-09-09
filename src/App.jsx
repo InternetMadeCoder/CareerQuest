@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Search from './components/SearchDiv/Search';
 import Jobs from './components/JobDiv/Jobs';
+// import ResumeBuilder from './components/ResumeBuilder/ResumeBuilder';
 import Value from './components/ValueDiv/Value';
 import Footer from './components/Footer/Footer';
 
@@ -27,6 +28,7 @@ const App = () => {
         company={searchParams.company}
         location={searchParams.location}
       />
+      {/* <ResumeBuilder/> */}
       <Value />
       <Footer />
     </div>
